@@ -1,13 +1,13 @@
+---
+typora-root-url: ./
+---
+
 
 
 ## Build Your Arch Linux System From Scratch 
 
-
-![](https://github.com/sayems/Arch-Linux/blob/master/screenshot/arch.jpg)
-
-
-Arch Linux is a do-it-yourself Linux distro, It’s very popular among linux geeks and developers that like to really get at the nuts and bolts of a system. Arch give you the freedom to make any choice about the system. **It does not come with any pre-installed packages/drivers or graphical installer**, instead It uses a **command line installer**.
-When you boot it up for the first time, you’ll be greeted with a command-line tool. It expects you to perform the entire installation from the command-line and install all the necessary program/driver by yourself and customize it the way you want it — by piecing together the components that you’d like to include on your system. 
+Arch Linux is a do-it-yourself Linux distro, It’s very popular among Linux geeks and developers that like to really get at the nuts and bolts of a system. Arch give you the freedom to make any choice about the system. **It does not come with any pre-installed packages/drivers or graphical installer**, instead It uses a **command line installer**.
+When you boot it up for the first time, you'll be greeted with a command-line tool. It expects you to perform the entire installation from the command-line and install all the necessary program/driver by yourself and customize it the way you want it — by piecing together the components that you'd like to include on your system. 
 
 Arch Linux is a really good way to learn what's going on inside a Linux box. You can learn a lot just from the installation process. I am going to walk through the base install, as well as several common post-install things like setting up networking, sound, mounts, X11 and video drivers, and adding users. I am not going to go in great detail on each step, so if you don't know how to do a certain step you may need to seek references elsewhere. 
 
@@ -70,7 +70,7 @@ Table of Contents
     - [Vagrant](https://github.com/sayems/arch.linux.tutorial/wiki/Vagrant)
     - [Ansible](https://github.com/sayems/arch.linux.tutorial/wiki/Ansible)
     - [Amazon Web Services (AWS)](https://github.com/sayems/arch.linux.tutorial/wiki/Amazon-Web-Services-(AWS))
-  
+
 &nbsp;
 
 [top](#table-of-contents)
@@ -425,7 +425,7 @@ The first important thing to do for installing **Grub** on **Arch Linux** is to 
 Let’s run the following command in order to locate this partition:
   ```
 sh-4.3# fdisk -l
-```
+  ```
 We need to check the partition marked as **EFI System**
 
 After that, we need to mount this partition, for example, on ```/boot/efi```:
