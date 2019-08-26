@@ -80,10 +80,10 @@ Table of Contents
 
 Here's a screenshot of my desktop, built just the way I want it
 
-![Here's a screenshot of my current Arch Linux system](https://github.com/sayems/Arch-Linux/blob/master/screenshot/vanila-desktop.png)
+![Here's a screenshot of my current Arch Linux system](/screenshot/vanila-desktop.png)
 
 
-![](https://github.com/sayems/Arch-Linux/blob/master/screenshot/desktop-preview.png)
+![](/screenshot/desktop-preview.png)
 
 
 &nbsp;
